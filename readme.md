@@ -14,7 +14,7 @@ This repository contains a simple Kafka producer and consumer implemented in Go 
 1. Clone the repository:
    ```sh
    git clone git@github.com:NessibeliY/kafka.git
-   cd kafka_producer_consumer
+   cd kafka
    ```
 
 2. Install dependencies:
