@@ -40,7 +40,7 @@ To create a topic manually (if not already created):
 
 To start the producer and send a message:
 ```sh
- go run producer.go
+ go run ./producer
 ```
 
 The producer sends a JSON message to the `test-topic` topic.
@@ -49,7 +49,7 @@ The producer sends a JSON message to the `test-topic` topic.
 
 To start the consumer and listen for messages:
 ```sh
- go run consumer.go
+ go run ./consumer
 ```
 
 The consumer subscribes to `test-topic` and prints received messages to the console.
